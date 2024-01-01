@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 10000;
 
 // Socket.io
 let users = [];
@@ -95,7 +95,7 @@ app.post('/api/register', async (req, res, next) => {
         }
 
     } catch (error) {
-        console.log(error, 'Error')
+        console.log(error, 'Error');
     }
 })
 
