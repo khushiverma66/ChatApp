@@ -95,7 +95,7 @@ app.post('/api/register', async (req, res, next) => {
         }
 
     } catch (error) {
-        console.log(error, 'Error');
+        console.log(error, 'Error')
     }
 })
 
