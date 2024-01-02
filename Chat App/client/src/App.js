@@ -13,7 +13,7 @@ const ProtectedRoute = ({ children, auth=false }) => {
     return <Navigate to={'/'} />
   }
 
-  return children
+  return children;
 }
 
 function App() {
